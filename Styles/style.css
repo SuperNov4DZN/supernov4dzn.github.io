@@ -1,3 +1,12 @@
-.container div {
-  padding: 0 5rem;
+* {
+  font-family: monospace;
+}
+
+.container {
+  margin: 0 15rem;
+  padding: 0 1rem;
+  background: floralwhite;
+}
+.container h1 {
+  margin-top: 0;
 }/*# sourceMappingURL=style.css.map */
