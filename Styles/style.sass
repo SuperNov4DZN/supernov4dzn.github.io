@@ -26,5 +26,63 @@ body
     .text
         margin-top: 0
 
+.center-this
+    text-align: center
+
+.justify-this
+    text-align: justify
+
 .default-box-shadow
     box-shadow: 0px 0px 15px #454545af
+
+.script
+    &.actions
+        background: #57B5DE
+    &.dialogue
+        background: #FFADEE
+    &.notes
+        background: #5CAB83
+        font-style: italic
+
+.go-back-button
+    background: #ffadee
+    text-decoration: none
+    color: white
+    font-weight: 700
+    font-size: large
+    padding: 5px 10px
+    border-radius: 5px
+    box-shadow: 0px 0px 3px #454545af
+
+    &:hover
+        box-shadow: 0px 0px 10px #ffadee
+
+.vods-list
+    font-size: larger
+    display: inline-flex
+    flex-direction: column
+    flex-wrap: nowrap
+    list-style-type: none
+    padding: 0
+
+    li
+        margin: 10px 0px
+        a
+            padding: 5px 10px
+            background: #CFCFCF
+            border-radius: 5px
+
+        &:nth-child(odd)
+            a
+                background: #E7E7E7
+
+    a
+        font-weight: 700
+        text-decoration: none
+        color: #4A4A4A
+
+        &::after
+            content: " ⇢ Clips: " attr(data-clips)
+
+        &:hover
+            box-shadow: 0px 0px 10px #454545af
