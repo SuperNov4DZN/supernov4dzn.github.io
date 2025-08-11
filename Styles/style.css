@@ -16,13 +16,18 @@
 }
 
 body {
-  margin: 0;
+  margin: 2.5rem 0;
 }
 
 .container {
+  border-radius: 10px;
   margin: 0 15rem;
   padding: 1.5rem 1.5rem;
   background: floralwhite;
+}
+.container.cf {
+  display: flex;
+  flex-direction: column;
 }
 .container .text-captions {
   font-size: larger;
@@ -97,4 +102,28 @@ body {
 }
 .vods-list a:hover {
   box-shadow: 0px 0px 10px rgba(69, 69, 69, 0.6862745098);
+}
+
+.img-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-title, .page-title {
+  font-family: system-ui;
+  color: #57B5DE;
+  font-weight: 900;
+  margin: 5px;
+  text-shadow: 1px 1px 0px black;
 }/*# sourceMappingURL=style.css.map */
