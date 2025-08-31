@@ -126,4 +126,26 @@ body {
   font-weight: 900;
   margin: 5px;
   text-shadow: 1px 1px 0px black;
+}
+
+.clip-container {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1.5rem;
+}
+.clip-container h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #5CAB83;
+  text-shadow: 1px 1px 0px black;
+  margin: 0.5rem 0 1rem 0;
+}
+.clip-container h4 {
+  margin: 1rem 0 0.5rem 0;
+}
+.clip-container br.hide-temp {
+  display: none;
+}
+.clip-container:nth-child(even) {
+  background: #f1eada;
+  border: 1px solid #ddd;
 }/*# sourceMappingURL=style.css.map */
